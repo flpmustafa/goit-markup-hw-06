@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Портфоліо робіт кращої Веб студії по створенню сайтів" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Fonts end -->
+    <link rel="stylesheet" href="./CSS/modern-normalize.css" />
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <!-- Favicon start -->
+    <link rel="apple-touch-icon" sizes="152x152" href="./images/favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/favicon-16x16.png" />
+    <link rel="manifest" href="./images/favicon/site.webmanifest" />
+    <link rel="mask-icon" href="./images/favicon/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <!-- Favicon end -->
+    <title>Портфоліо</title>
+  </head>
+  <body>
+    <!-- Header section -->
+    <header class="page-header">
+      <div class="header-group">
+        <nav>
+          <a class="logo" href="./index.html"><span class="logo-header">Web</span>Studio</a>
+          <ul class="menu-nav list">
+            <li>
+              <a class="menu-link" href="./index.html">Студія</a>
+            </li>
+            <li>
+              <a class="menu-link current" href="./portfolio.html">Портфоліо</a>
+            </li>
+            <li>
+              <a class="menu-link" href="#">Контакти</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="auth-nav list">
+          <li class="auth-list">
+            <a class="menu-link menu-link-icon" href="mailto:info@devstudio.com">
+              <svg class="auth-icon" width="16" height="12">
+                <use href="./images/icons/icons.svg#email"></use>
+              </svg>
+              info@devstudio.com
+            </a>
+          </li>
+          <li class="auth-list">
+            <a class="menu-link menu-link-icon" href="tel:+380961111111">
+              <svg class="auth-icon" width="10" height="16">
+                <use href="./images/icons/icons.svg#smartphone"></use>
+              </svg>
+              +38 096 111 11 11
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <section class="mine-project">
+        <div class="container hero-container">
+          <!-- Project button filter -->
+          <h1 class="project-title visually-hidden">Наші проекти</h1>
+          <ul class="project-list list">
+            <li class="project-item">
+              <button class="btn-two" type="button">Усі</button>
+            </li>
+            <li class="project-item">
+              <button class="btn-two" type="button">Веб-сайти</button>
+            </li>
+            <li class="project-item">
+              <button class="btn-two" type="button">Додатки</button>
+            </li>
+            <li class="project-item">
+              <button class="btn-two" type="button">Дизайн</button>
+            </li>
+            <li class="project-item">
+              <button class="btn-two" type="button">Маркетинг</button>
+            </li>
+          </ul>
+          <!-- Portfolio cards -->
+          <ul class="mine-portfolio list">
+            <li class="portfolio-list">
+              <a class="portfolio-item" href="#">
+                <div class="portfolio-content">
+                  <img
+                    src="./images/optim_img/project-1.jpg"
+                    alt="Веб-сайт Технокряк, зораження головної сторінки"
+                    width="370"
+                  />
+                  <div class="overlay">
+                    <p class="overlay-desc">
+                      Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
+                      Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
+                      приватну особу.
+                    </p>
+                  </div>
+                </div>
+                <div class="portfolio-text-box">
+                  <h2 class="portfolio-title">Технокряк</h2>
+                  <p class="portfolio-text">Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+            <li class="portfolio-list">
+              <a class="portfolio-item" href="#">
+                <div class="portfolio-content">
+                  <img
+                    src="./images/optim_img/project-2.jpg"
+                    alt="Постер з гравцями в баскетбол"
+                    width="370"
+                  />
+                  <div class="overlay">
+                    <p class="overlay-desc">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad voluptatem soluta
+                      fuga laborum magni, voluptas, sit officia aliquid tenetur tempora cupiditate
+                      distinctio corporis nesciunt dolorum ab nam reiciendis corrupti neque!
+                    </p>
+                  </div>
+                </div>
+                <div class="portfolio-text-box">
+                  <h2 class="portfolio-title">Постер New Orlean vs Golden Star</h2>
+                  <p class="portfolio-text">Дизайн</p>
+                </div>
+              </a>
+            </li>
+            <li class="portfolio-list">
+              <a class="portfolio-item" href="#">
+                <div class="portfolio-content">
+                  <img src="./images/optim_img/project-3.jpg" alt="Логотип додатку" width="370" />
+                  <div class="overlay">
+                    <p class="overlay-desc">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad voluptatem soluta
+                      fuga laborum magni, voluptas, sit officia aliquid tenetur tempora cupiditate
+                      distinctio corporis nesciunt dolorum ab nam reiciendis corrupti neque!
+                    </p>
+                  </div>
+                </div>
+                <div class="portfolio-text-box">
+                  <h2 class="portfolio-title">Ресторан Seafood</h2>
+                  <p class="portfolio-text">Додаток</p>
+                </div>
+              </a>
+            </li>
+            <li class="portfolio-list">
+              <a class="portfolio-item" href="#">
+                <div class="portfolio-content">
+                  <img
+                    src="./images/optim_img/project-4.jpg"
+                    alt="Бездротові навушники"
+                    width="370"
+                  />
+                  <div class="overlay">
+                    <p class="overlay-desc">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad voluptatem soluta
+                      fuga laborum magni, voluptas, sit officia aliquid tenetur tempora cupiditate
+                      distinctio corporis nesciunt dolorum ab nam reiciendis corrupti neque!
+                    </p>
+                  </div>
+                </div>
+                <div class="portfolio-text-box">
+                  <h2 class="portfolio-title">Проєкт Prime</h2>
+                  <p class="portfolio-text">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+            <li class="portfolio-list">
+              <a class="portfolio-item" href="#">
+                <div class="portfolio-content">
+                  <img
+                    src="./images/optim_img/project-5.jpg"
+                    alt="Дві коробки, біла та коричнева"
+                    width="370"
+                  />
+                  <div class="overlay">
+                    <p class="overlay-desc">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad voluptatem soluta
+                      fuga laborum magni, voluptas, sit officia aliquid tenetur tempora cupiditate
+                      distinctio corporis nesciunt dolorum ab nam reiciendis corrupti neque!
+                    </p>
+                  </div>
+                </div>
+                <div class="portfolio-text-box">
+                  <h2 class="portfolio-title">Проєкт Boxes</h2>
+                  <p class="portfolio-text">Додаток</p>
+                </div>
+              </a>
+            </li>
+            <li class="portfolio-list">
+              <a class="portfolio-item" href="#">
+                <div class="portfolio-content">
+                  <img
+                    src="./images/optim_img/project-6.jpg"
+                    alt="Головна сторінка сайту з мапою миру"
+                    width="370"
+                  />
+                  <div class="overlay">
+                    <p class="overlay-desc">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad voluptatem soluta
+                      fuga laborum magni, voluptas, sit officia aliquid tenetur tempora cupiditate
+                      distinctio corporis nesciunt dolorum ab nam reiciendis corrupti neque!
+                    </p>
+                  </div>
+                </div>
+                <div class="portfolio-text-box">
+                  <h2 class="portfolio-title">Inspiration has no Borders</h2>
+                  <p class="portfolio-text">Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+            <li class="portfolio-list">
+              <a class="portfolio-item" href="#">
+                <div class="portfolio-content">
+                <img src="./images/optim_img/project-7.jpg" alt="Сторінки журналу" width="370" />
+                <div class="overlay">
+                    <p class="overlay-desc">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad voluptatem soluta
+                      fuga laborum magni, voluptas, sit officia aliquid tenetur tempora cupiditate
+                      distinctio corporis nesciunt dolorum ab nam reiciendis corrupti neque!
+                    </p>
+                  </div>
+                </div>  
+                <div class="portfolio-text-box">
+                  <h2 class="portfolio-title">Видання Limited Edition</h2>
+                  <p class="portfolio-text">Дизайн</p>
+                </div>
+              </a>
+            </li>
+            <li class="portfolio-list">
+              <a class="portfolio-item" href="#">
+                <div class="portfolio-content">
+                <img src="./images/optim_img/project-8.jpg" alt="Абревіатура LAB" width="370" />
+                <div class="overlay">
+                    <p class="overlay-desc">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad voluptatem soluta
+                      fuga laborum magni, voluptas, sit officia aliquid tenetur tempora cupiditate
+                      distinctio corporis nesciunt dolorum ab nam reiciendis corrupti neque!
+                    </p>
+                  </div>
+                </div>  
+                <div class="portfolio-text-box">
+                  <h2 class="portfolio-title">Проєкт LAB</h2>
+                  <p class="portfolio-text">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+            <li class="portfolio-list">
+              <a class="portfolio-item" href="#">
+                <div class="portfolio-content">
+                <img src="./images/optim_img/project-9.jpg" alt="Ноутбук з додатком" width="370" />
+                <div class="overlay">
+                    <p class="overlay-desc">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad voluptatem soluta
+                      fuga laborum magni, voluptas, sit officia aliquid tenetur tempora cupiditate
+                      distinctio corporis nesciunt dolorum ab nam reiciendis corrupti neque!
+                    </p>
+                  </div>
+                </div>  
+                <div class="portfolio-text-box">
+                  <h2 class="portfolio-title">Growing Business</h2>
+                  <p class="portfolio-text">Додаток</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer class="page-footer">
+      <div class="container footer-box">
+        <!-- Contacts -->
+        <div class="footer-nav">
+          <a class="logo-page-footer" href="./index.html">
+            <span class="logo-header">Web</span><span class="logo-footer">Studio</span>
+          </a>
+          <address>
+            <ul class="addr-list list">
+              <li class="addr-item">
+                <a
+                  class="footer-link"
+                  href="https://goo.gl/maps/suJbWfzHYKnnb4QdA"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  >м. Київ, пр-т Лесі Українки, 26</a
+                >
+              </li>
+              <li class="addr-item">
+                <a class="footer-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+              </li>
+              <li class="addr-item">
+                <a class="footer-link" href="tel:+380961111111">+38 096 111 11 11</a>
+              </li>
+            </ul>
+          </address>
+        </div>
+        <!-- Social link footer -->
+        <div class="social-icon-footer">
+          <p class="title-footer">приєднуйтесь</p>
+          <ul class="social-icon-list list">
+            <li class="social-items">
+              <a
+                class="social-link-footer"
+                href="https://instagram.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="instagram"
+              >
+                <svg class="social-icon-footer" width="20" height="20">
+                  <use href="./images/icons/icons.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-items">
+              <a
+                class="social-link-footer"
+                href="https://twitter.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="twitter"
+              >
+                <svg class="social-icon-footer" width="20" height="20">
+                  <use href="./images/icons/icons.svg#twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-items">
+              <a
+                class="social-link-footer"
+                href="https://facebook.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="facebook"
+              >
+                <svg class="social-icon-footer" width="20" height="20">
+                  <use href="./images/icons/icons.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-items">
+              <a
+                class="social-link-footer"
+                href="https://linkedin.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="linkedin"
+              >
+                <svg class="social-icon-footer" width="20" height="20">
+                  <use href="./images/icons/icons.svg#linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
