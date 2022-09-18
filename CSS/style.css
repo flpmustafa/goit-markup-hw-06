@@ -633,7 +633,7 @@ a[href="https://goo.gl/maps/suJbWfzHYKnnb4QdA"]
 }
 
 .social-links-footer {
-  margin-right: 93px;
+  margin-right: auto;
 }
 
 .social-link-footer {
@@ -756,7 +756,7 @@ a[href="https://goo.gl/maps/suJbWfzHYKnnb4QdA"]
   left: 50%;
   transform: translate(-50%, -50%);
   padding: 40px;
-  width: 582px;
+  width: 528px;
   height: 581px;
   background-color: var(--bgr-mine-cl);
   border-radius: 4px;
@@ -805,6 +805,11 @@ a[href="https://goo.gl/maps/suJbWfzHYKnnb4QdA"]
   display: block;
   position: relative;
   margin-bottom: 10px;
+}
+
+.register-form-textarea {
+  display: block;
+  position: relative;
 }
 
 .register-form-input {
